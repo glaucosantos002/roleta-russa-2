@@ -6,6 +6,8 @@ Um jogo de Roleta Russa implementado em linguagem C, projetado para rodar em ter
 
 aluno: Glauco santos
 
+slide:https://www.canva.com/design/DAG2R9ArVmk/GserO1H4skGnq3TMgfBArA/edit?utm_content=DAG2R9ArVmk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
 ## 🎲 Sobre o Jogo
 
 **SHOOT 2 KILL** é uma adaptação em texto do clássico jogo de Roleta Russa para dois jogadores.
