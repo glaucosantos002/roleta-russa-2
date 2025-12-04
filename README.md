@@ -33,6 +33,13 @@ Você precisa ter o **GCC** (GNU Compiler Collection) instalado no seu ambiente 
 No terminal, navegue até a pasta raiz do projeto (`/jogo`) e use o seguinte comando de compilação. Ele junta todos os arquivos (`.c`) do projeto em um único executável chamado `jogo`:
 
 ```bash
-gcc main.c jogador.c partida.c bibliotecas/screen.c bibliotecas/keyboard.c bibliotecas/timer.c -o jogo -lm
+ENTRE NO TERMINAL COM: cd /mnt/c/Users/SEU NOME NO PC/Desktop/jogo\ em\ c
 
-link:https://youtu.be/QazTcCGRn9g
+utilize: gcc -I./cli-lib/include \
+    main.c jogador.c partida.c \
+    cli-lib/src/screen.c cli-lib/src/keyboard.c cli-lib/src/timer.c \
+    -o jogo
+e depois utilize o
+ ./jogo
+
+link:[[https://youtu.be/QazTcCGRn9g](https://www.youtube.com/watch?v=hb0higfTOvU)](https://youtu.be/hb0higfTOvU)
